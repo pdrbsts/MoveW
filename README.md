@@ -15,6 +15,8 @@ movew -x<coord> -y<coord> -p<process_name> [-u]
 *   `-x<coord>`: (Required) The target X coordinate for the top-left corner of the window.
 *   `-y<coord>`: (Required) The target Y coordinate for the top-left corner of the window.
 *   `-p<process_name>`: (Required) The name of the executable file of the target process (e.g., `notepad.exe`, `chrome.exe`).
+*   `-u`: (Optional) If specified, the program will wait indefinitely for a window belonging to the target process to appear before attempting to move it. If omitted, the program will only check for currently existing windows and exit if none are found.
+
 
 **Examples:**
 
