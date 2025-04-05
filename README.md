@@ -42,7 +42,7 @@ To build `movew.exe` from the provided `main.cpp` source code:
         ```cmd
         build.bat
         ```
-    *   This will compile the resource script, compile the C++ code, link them, and finally compress the output executable (`movew.exe`) using `mpress` (if available).
+    *   This will compile the resource script, compile the C++ code and link them.
 
 ## Notes
 
