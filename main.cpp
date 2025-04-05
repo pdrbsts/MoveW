@@ -12,7 +12,6 @@
 #pragma comment(lib, "user32.lib")
 #pragma comment(lib, "psapi.lib")
 
-
 struct EnumData {
     std::string targetProcessNameLower;
     std::string actualTitle;
